@@ -14,7 +14,13 @@ import database from "./database-v2.json";
 
 0-2. 나이의 표기
 20대는 20s, 30대는 30s, ..., 60대는 60s로 표기됩니다.
- */
+
+1. 파츠 이미지 적층 순서
+폴더 앞 번호 순서에 따라 이미지를 적층해나가야 합니다.
+1번 SOUND가 가장 먼저 그려지고, 2번이 그 위를 덮습니다. 
+그리고 다시 3번이 그 위(2번 위)를 덮습니다. 
+반복해서 8번 HEADWEAR까지 그리고 마무리 됩니다.
+*/
 
 // 드로잉 순서
 // SOUND -> TIME -> HAND1 -> MURDER TOOL -> HAND2 -> BODY -> CLOTHE -> HEADWEAR
